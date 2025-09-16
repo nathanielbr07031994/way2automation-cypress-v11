@@ -6,11 +6,11 @@ This project contains Cypress end-to-end tests for [Way2Automation](https://www.
 ## 🚀 Running Tests
 1. Install dependencies
    npm install
-2. Run Cypress in headed mode
+2. Run Cypress in UI mode
    npx cypress open
-3. Run in CLI
+3. Run in headless mode
    npx cypress run
-
+   
 ## 📂 Structure
 - `cypress/e2e` → Test specs
 - `cypress/fixtures` → Test data
