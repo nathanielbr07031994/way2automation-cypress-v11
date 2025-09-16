@@ -1,0 +1,19 @@
+{
+  "name": "way2automation-cypress",
+  "version": "1.0.0",
+  "description": "Cypress v11 E2E tests for Way2Automation demo site",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "author": "QA Automation",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "11.2.0",
+    "mocha": "^10.2.0"
+  },
+  "engines": {
+    "node": "16.14.0"
+  }
+}
